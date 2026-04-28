@@ -68,6 +68,9 @@ ip routing
 !
 router ospf 1
    router-id 172.16.0.1
+   passive-interface default
+   no passive-interface Ethernet1
+   no passive-interface Ethernet2
    max-lsa 12000
 !
 end
@@ -126,6 +129,9 @@ ip routing
 !
 router ospf 1
    router-id 172.16.0.2
+   passive-interface default
+   no passive-interface Ethernet1
+   no passive-interface Ethernet2
    max-lsa 12000
 !
 end
@@ -184,6 +190,9 @@ ip routing
 !
 router ospf 1
    router-id 172.16.0.3
+   passive-interface default
+   no passive-interface Ethernet1
+   no passive-interface Ethernet2
    max-lsa 12000
 !
 end
@@ -246,6 +255,10 @@ ip routing
 !
 router ospf 1
    router-id 172.16.10.1
+   passive-interface default
+   no passive-interface Ethernet1
+   no passive-interface Ethernet2
+   no passive-interface Ethernet3
    max-lsa 12000
 !
 end
@@ -308,6 +321,10 @@ ip routing
 !
 router ospf 1
    router-id 172.16.20.1
+   passive-interface default
+   no passive-interface Ethernet1
+   no passive-interface Ethernet2
+   no passive-interface Ethernet3
    max-lsa 12000
 !
 end
